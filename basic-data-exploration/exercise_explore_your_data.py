@@ -1,7 +1,7 @@
 # Set up code checking
 from learntools.core import binder
 binder.bind(globals())
-from learntools.machine_learning.ex2 import step_1, step2
+from learntools.machine_learning.ex2 import step_1, step_2
 print("Setup Complete")
 
 import pandas as pd
@@ -16,3 +16,6 @@ display(home_data.describe());
 
 # Call line below with no argument to check that you've loaded the data correctly
 step_1.check()
+
+# Checks your answers
+step_2.check()
