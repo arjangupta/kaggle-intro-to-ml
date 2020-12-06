@@ -7,15 +7,23 @@ print("Setup Complete")
 import pandas as pd
 from IPython.display import display
 
+# ----------- step 1 ----------
+
 # Path of the file to read
-iowa_file_path = '../input/home-data-for-ml-course/train.csv'
+iowa_file_path = '../input/home-data-for-ml-course/train.csv';
 
 # Fill in the line below to read the file into a variable home_data
 home_data = pd.read_csv(iowa_file_path);
-display(home_data.describe());
 
 # Call line below with no argument to check that you've loaded the data correctly
-step_1.check()
+print("Step 1 result is -");
+step_1.check();
+
+# --------- step 2 ----------
+
+# Print summary statistics in next line
+display(home_data.describe());
 
 # Checks your answers
-step_2.check()
+print("Step 2 result is -");
+step_2.check();
