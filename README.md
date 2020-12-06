@@ -1,2 +1,2 @@
-# kaggle_intro_to_ml
+# Kaggle Course - Introduction of Machine Learning
 Course: https://www.kaggle.com/learn/intro-to-machine-learning
